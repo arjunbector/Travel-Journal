@@ -1,0 +1,55 @@
+.card{
+    max-width: 1000px;
+    display: flex;
+    margin: 15px 15px;
+    padding: 25px 25px;
+    gap: 20px;
+}
+
+.image{
+    height: 168px;
+    width: 125px;
+    border-radius: 10px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.locationDetails{
+    :is(.locationIcon){
+        color: #F55A5A;
+        font-size: 10px;
+    }
+
+    :is(.location){
+        margin: 0px 5px;
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+
+   :is(a){
+    font-size: 10px;
+    margin: 0px 10px;
+    color: #918E9B;
+    text-decoration: underline;
+   } 
+}
+
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    height: 40px;
+}
+
+.date{
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description{
+    font-size: 10px;
+}

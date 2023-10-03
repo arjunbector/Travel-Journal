@@ -1,0 +1,8 @@
+main{
+  display: block;
+  max-width: 550px;
+  margin: auto;
+  background-color: rgb(233, 233, 233);
+  border-radius: 30px;
+  margin-top: 20px;
+}
