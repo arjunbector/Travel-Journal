@@ -4,5 +4,6 @@ main{
   margin: auto;
   background-color: rgb(233, 233, 233);
   border-radius: 30px;
+  overflow: hidden;
   margin-top: 20px;
 }
